@@ -8,7 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+  
+	
     <title>Vendas - Ordem de Serviço</title>
 	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -38,7 +39,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
+               <!--     <li>
                         <a href="#">About</a>
                     </li>
                     <li>
@@ -46,7 +47,7 @@
                     </li>
                     <li>
                         <a href="#">Contact</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -63,74 +64,169 @@
 
                 <!-- Blog Post -->
 
-                <!-- Title -->
-              <h1 class="text-center">Ordem de Serviço</h1>
 
-                <!-- Author -->
-                <p class="lead text-center">
-                    by SuperERP team
-                </p>
-
-                <hr>
 <p> <a href="index.html" > Voltar </a></p>
          <hr>
 
-                <!-- Preview Image -->
-                <img  src="../img/ordemdeservico.jpg" alt="" width="900" height="300" class="col-lg-10">
+               <div class="container">
+  <div class="panel-group">
+  
+    <div class="panel panel-primary">
+      <div class="panel-heading"><h1>Ordem de Serviços</h1></div>
 
- <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-               
+    </div>
+  </div>
+</div>  
                 <hr>
 
                 <!-- POSTAR INFORMAÇÃO DO MANUAL AQUI -->
-                <p>A ordem de serviço é um documento que tem a função de emitir comunicações em uma empresa a respeito de um trabalho que precisa ser efetuado.</p>
-                <p>Neste item, crie, imprima e compartilhe as ordens de serviço com os seus funcionários. </p>
-				<p>Para acessar as funções disponíveis para Ordens de Serviço, clique em “Vendas” e depois “Ordens de Serviço”.</p>
-				<p>Dentro de Ordens de Serviço é possível:</p>
+                <p class="text-justify">A ordem de serviço é um documento que tem a função de emitir comunicações em uma empresa a respeito de um trabalho que precisa ser efetuado.</p>
+                <p class="text-justify">Neste item, crie, imprima e compartilhe as ordens de serviço com os seus funcionários. </p>
+				<p class="text-justify">Para acessar as funções disponíveis para Ordens de Serviço, clique em “Vendas” e depois “Ordens de Serviço”.</p>
+				<p class="text-justify">Dentro de Ordens de Serviço é possível:</p>
 				
 				<div class="panel-group" id="accordion">
-				  <div class="panel panel-default">
+				
+				
+				<div class="panel panel-default">
 					<div class="panel-heading">
 					  <h4 class="panel-title">
 						<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-						Criar Ordem de Serviço</a>
+						Listagem de Ordem de Serviço</a>
 					  </h4>
-					</div>
+					</div> 
+					
 					<div id="collapse1" class="panel-collapse collapse">
-					  <div class="panel-body"><p>Para criar uma Ordem de Serviço são necessárias as seguintes informações:</p>
-						<ul>
-							<li><p>Ordem de Serviço</p></li>
-							<li><p>Cliente – (Seleciona um cliente ou cadastra um novo)</p></li>
-							<li><p>Status da Ordem de Serviço - (Orçamento Pendente, Serviço Pendente, Em Andamento, Concluído)</p></li>
-							<li><p>Número da Ordem de Serviço</p></li>
-							<li><p>Data de início</p></li>
-							<li><p>Previsão de entrega</p></li>
-							<li><p>Responsável</p></li>
-							<li><p>Equipamento recebido</p></li>
-							<li><p>Número de série</p></li>
-							<li><p>Marca </p></li>
-							<li><p>Modelo</p></li>
-							<li><p>Observações sobre o recebimento do equipamento</p></li>
-							<li><p>Descrição do problema ou defeito apresentado</p></li>
-							<li><p>Descrição do serviço que será prestado</p></li>
-							<li><p>Observações internas (Não aparece para o cliente)</p></li>
+					  <div class="panel-body">A tela inicial mostra todas as Ordens já cadastradas. </div>
+					  <p></p>
+					  <hr>
+						<div class="container">
+ 
+							<img class="img-responsive" src="listaros.png" alt="Chania" width="600" >
+							 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#imgmodallst">Visualizar imagem</button>
+							<div id="imgmodallst" class="modal fade" role="dialog">
+							  <div class="modal-dialog-lg">
 
-							<li><p>Após preencher as informações, clique em “Salvar”.</p></li>
+								<!-- Modal content-->
+								<div class="modal-content">
+								  <div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Listagem de Ordem de Serviço</h4>
+								  </div>
+								  <div >
+									<center> 
+										<img src="listaros.png" alt="Tela de Cadastro"> 
+								
+
+									</center>
+							 
+								  </div>
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+								  </div>
+								</div>
+
+							  </div>
+							</div>
+						</div>
+					 <p></p>
+					<hr>					 
+					<div class="panel-body"><p>Botões de ação:</p>
+						<ul>
+							
+							
+							<li><p><img src="btnCadastrar.jpg" class="img-rounded" alt="botão cadastrar">Cadastro de uma nova Ordem de serviço</p></li>
+							<li><p><img src="btnEditar.jpg" class="img-rounded" alt="botão Editar">Botão editar, disponível na mesma linha de cada registro</p>
+							<li><p><img src="btnVisual.jpg" class="img-rounded" alt="botão Editar">Visualizar a Ordem de Serviço em detalhes.</p></li>
+							<p></p>
+
 						</ul>
+						
+
 						</div>
 					</div>
-				  </div>
+					
+					</div>
+				
+				
+				
 				  <div class="panel panel-default">
+				  
 					<div class="panel-heading">
 					  <h4 class="panel-title">
 						<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-						Excluir Ordem de Serviço</a>
+						Criar Ordem de Serviço</a>
 					  </h4>
 					</div>
 					<div id="collapse2" class="panel-collapse collapse">
-					  <div class="panel-body">Para excluir uma ordem de serviço, selecione o registro e clique no botão Excluir. </div>
+					  <div class="panel-body">
+					  <p>Ao clicar no botão <img src="btnCadastrar.jpg" class="img-rounded" alt="botão cadastrar" height="30px">, abre a tela de cadastro de uma nova Ordem de serviço</p>
+					  <p></p>
+						<div class="container">
+ 
+							<img class="img-responsive" src="cadastraros.png" alt="Cadastro de OS" width="600" >
+							 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#imgmodal">Visualizar imagem</button>
+							<div id="imgmodal" class="modal fade" role="dialog">
+							  <div class="modal-dialog-lg">
+
+								<!-- Modal content-->
+								<div class="modal-content">
+								  <div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Cadastrar uma Ordem de Serviço</h4>
+									
+								  </div>
+								  <div >
+								  <center> 
+							<img src="cadastraros.png" alt="Tela de Cadastro"> 
+					
+
+							</center>
+							 
+								  </div>
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+								  </div>
+								</div>
+
+							  </div>
+							</div>
+							</div>
+					  
+					  <p></p>
+					  <p></p>
+					  <p>Para criar uma Ordem de Serviço são necessárias as seguintes informações:</p>
+						<ul>
+							
+							
+							<h3>Cadastro de Ordem de Serviço</h3>
+							<li><p>Nome</p></li>
+							<li><p>Número da Ordem de Serviço - número da ordem de serviço</p></li>
+							<li><p>Data de início - Data da abertura abertura da Ordem de serviço</p></li>
+							<li><p>Data termino - Data de entrega ou conclusão da Ordem de serviço</p></li>
+							
+							<li><p>Equipamento recebido</p></li>
+							
+							<li><p>Número de série</p></li>
+							<li><p>Marca </p></li>
+							<li><p>Modelo</p></li>
+							
+							<li><p>Observções de Recebimento - Observações sobre o recebimento do equipamento</p></li>
+							<li><p>Observações de problemas - Descrição do problema ou defeito apresentado</p></li>
+							<li><p>Descrição do serviço - Descrição do serviço que será prestado</p></li>
+							<li><p>Observações internas (Não aparece para o cliente)</p></li>
+							<li><p>Serviço - informação que tipo de serviço será prestado</p>
+							<li><p>Status da Ordem de Serviço - (Orçamento Pendente, Ordem Cancelada, Serviço Pendente, Em Andamento, Concluído)</p></li>
+							<p></p>
+							<li><p>Após preencher as informações, clique em “Salvar”.</p></li>
+						</ul>
+						
+
+						</div>
 					</div>
 				  </div>
+				  
+				  
 				  <div class="panel panel-default">
 					<div class="panel-heading">
 					  <h4 class="panel-title">
@@ -139,21 +235,160 @@
 					  </h4>
 					</div>
 					<div id="collapse3" class="panel-collapse collapse">
-					  <div class="panel-body">Para atualizar as informações da ordem de serviço, clique sobre o registro e pressione a opção “Editar”. Atualize as informações necessárias e clique em “Salvar”. </div>
+
+					  <div class="panel-body">
+						<p>Ao clicar no botão <img src="btnEditar.jpg" class="img-rounded" alt="botão Editar" height="30px">, disponível na tela de listagem de ordem de serviço, abre a tela de Editar a Ordem de serviço</p>
+						<p></p>
+
+						<div class="container">
+ 
+							<img class="img-responsive" src="editaros.png" alt="Editar OS" width="600" >
+							 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#imgmodaleditos">Visualizar imagem</button>
+							<div id="imgmodaleditos" class="modal fade" role="dialog">
+							  <div class="modal-dialog-lg">
+
+								<!-- Modal content-->
+								<div class="modal-content">
+								  <div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Editar uma Ordem de Serviço</h4>
+									
+								  </div>
+								  <div >
+								  <center> 
+										<img src="editaros.png" alt="Tela de Edição"> 
+								
+
+									</center>
+										 
+								  </div>
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+								  </div>
+								</div>
+
+							  </div>
+							</div>
+							</div>
+						<p></p>
+
+					  <p>Atualize as informações necessárias, clique em “Salvar” e retornará a listagem de Ordem de Serviço. </p>
+					  
+					  
+					  </div>
 					</div>
-				  </div>
-					<div class="panel panel-default">
+				  </div>				
+				  
+				<div class="panel panel-default">
 					<div class="panel-heading">
 					  <h4 class="panel-title">
 						<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
-						Pesquisar</a>
+						Consultar uma Ordem de Serviço</a>
 					  </h4>
 					</div>
 					<div id="collapse4" class="panel-collapse collapse">
-					  <div class="panel-body">É possível realizar a busca por ordens de serviço através das informações presentes na ordem.
-É possível realizar pesquisas utilizando como parâmetro os campos “Número da Ordem de Serviço” ou “Cliente”. 
- </div>
+					  <div class="panel-body">						
+					  <p>Ao clicar no botão <img src="btnVisual.jpg" class="img-rounded" alt="botão Editar" height="30px">, disponível na tela de listagem de ordem de serviço, abre a tela de Detalhar a Ordem de serviço</p>
+						<p></p>
+
+						<div class="container">
+ 
+							<img class="img-responsive" src="consultaros.png" alt="Editar OS" width="600" >
+							 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#imgmodaldetalharos">Visualizar imagem</button>
+							<div id="imgmodaldetalharos" class="modal fade" role="dialog">
+							  <div class="modal-dialog-lg">
+
+								<!-- Modal content-->
+								<div class="modal-content">
+								  <div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Consultar uma Ordem de Serviço</h4>
+									
+								  </div>
+								  <div >
+								  <center> 
+										<img src="consultaros.png" alt="Tela de Consulta"> 
+								
+
+									</center>
+										 
+								  </div>
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+								  </div>
+								</div>
+
+							  </div>
+							</div>
+							</div>
+						 <p></p>
+							<hr>					 
+						<div class="panel-body"><p>Botões de ação:</p>
+						<ul>
+							
+							
+							<li><p><img src="btnEditar.jpg" class="img-rounded" alt="botão Editar">Botão editar, disponível na mesma linha de cada registro</p>
+							<li><p><img src="btnVoltar.jpg" class="img-rounded" alt="botão Editar" height="30px">Voltar a listagem de Ordem de Serviços.</p></li>
+							<p></p>
+
+						</ul>
+						
+
+						</div>
+						
+						
+						
+						</div>
 					</div>
+				  </div> 
+				  <!-- Modal content
+				  
+				  <div class="panel panel-default">
+					<div class="panel-heading">
+					  <h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+						Cancelar a Ordem de Serviço</a>
+					  </h4>
+					</div>
+					<div id="collapse5" class="panel-collapse collapse">
+					  <div class="panel-body">Para cancelar uma ordem de serviço: clique no editar do registro, altere o status e clique em Salvar. </div>
+					  
+					  <div class="container">
+ 
+							<img class="img-responsive" src="cadastrar1.png" alt="Chania" width="600" >
+							 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#imgmodal">Visualizar imagem</button>
+							<div id="imgmodal" class="modal fade" role="dialog">
+							  <div class="modal-dialog-lg">
+
+								
+								<div class="modal-content">
+								  <div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Cadastrar uma Ordem de Serviço</h4>
+								  </div>
+								  <div >
+								  <center> 
+							<img src="cadastrar1.png" alt="Tela de Cadastro"> 
+					
+
+							</center>
+							 
+								  </div>
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+								  </div>
+								</div>
+
+							  </div>
+							</div>
+							</div>
+					  
+					  
+					  
+					</div>
+				  </div>
+			-->		
+
 				  </div>
 				</div>
 				
@@ -164,7 +399,7 @@
                 <hr>
 
                 <!-- Blog Comments -->
-
+<p> <a href="index.html" > Voltar </a></p>
                 <!-- Comments Form -->
                 
                 <hr>
